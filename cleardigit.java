@@ -4,7 +4,7 @@ class cleardigit {
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
                 if (res.length() > 0) {
-                    res.deleteCharAt(res.length() - 1); // Remove last char
+                    res.deleteCharAt(res.length() - 1);
                 }
             } else {
                 res.append(c);
