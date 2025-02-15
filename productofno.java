@@ -1,7 +1,7 @@
 import java.util.*;
 class productofno {
     List<Integer> prefixProduct;
-    public productofno() {
+    public productofnopunishment() {
         prefixProduct = new ArrayList<>();
         prefixProduct.add(1);
     }
